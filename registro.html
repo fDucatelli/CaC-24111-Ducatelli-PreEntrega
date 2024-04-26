@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Contacto La Semilla</title>
+</head>
+
+<body>
+    <h2>Bienvenido a Cac Movies...</h2><br>
+    <h2>Registrate y empezá a disfrutar de lo mejor...</h2><br>
+    <form action="procesar_formulario.py" method="post">
+        <label for="nombre">¿Cómo te llamás?:</label>
+        <input type="text" id="nombre" placeholder="Ingresá tu nombre" required>
+        <br><!--salto de linea-->
+        <br>
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" required>
+        <br><br>
+                <!-- opciones desplegables -->
+        <label for="pais">País de residencia:</label>
+        
+        <select name="" id="pais">
+            <option value="#">Selecciona tu pais</option>
+            <option value="ar">Argentina</option>
+            <option value="ar">Brasil</option>
+            <option value="ar">Uruguay</option>
+            <option value="ar">Chile</option>
+            <option value="py">Paraguay</option>
+            <option value="ar">Bolivia</option>
+            <option value="ar">Otro</option>
+        </select>
+        
+        <br><br>
+        <label for="contraseña">Ingresa una contraseña...:</label> 
+        <textarea name="contraseña" id="Contraseña" cols="16" rows="1"></textarea>
+        <br><br>
+        <label for="repitecontraseña">Ingresa nuevamente la contraseña...:</label>
+        
+        <textarea name="contraseña" id="Repetir Contraseña" cols="16" rows="1"></textarea>
+                <br><br>
+                <input type="submit" value="Entrar">
+    </form>
+    
+    <br><br>
+    <a href="index.html">
+        <button>Volver</button>
+    </a>
+</body>
+
+</html>
