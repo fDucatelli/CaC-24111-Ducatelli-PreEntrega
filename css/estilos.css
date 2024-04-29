@@ -235,97 +235,12 @@ animate__flipInX
                         transform: scale(0.95);
                         box-shadow: 0 0 10px rgba(255, 255, 255, 0.627);
                         }
+
+
+
                     }
-                }
             }
-}
-/*ESTILOS PARA LOGIN*/
 
-.loginheader{
-    .titulo{
-        color: white ;
-        font-size: 3rem;
-        font-weight: 700;
-        /* border: 2px solid white; */
-        text-align: center;}
-.seccionbody{
- 
-.seccionemail{ 
- 
- 
-    color: white;
-    background-color: rgb(234, 84, 84);
-    display: inline-block;
-    height: 50px;
-    margin: 20px 10px;
-    padding: 10px 20px;
-    border-radius: 25px;
-    font-size: 1.2rem;
-    font-weight: 700;
-    border: 2px solid white;
-    text-align: center;
-    transition: transform 0.3s, box-shadow 0.3s;
-    &:hover{
-    transform: scale(0.95);
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.627);
     }
-}
-    .seccionpassword{ color: white;
-        background-color: rgb(234, 84, 84);
-        display: inline-block;
-        height: 50px;
-        margin: 20px 10px;
-        padding: 10px 20px;
-        border-radius: 25px;
-        font-size: 1.2rem;
-        font-weight: 700;
-        border: 2px solid white;
-        text-align: center;
-    
-        transition: transform 0.3s, box-shadow 0.3s;
-        &:hover{
-        transform: scale(0.95);
-        box-shadow: 0 0 10px rgba(255, 255, 255, 0.627);
-        }
-}
 
-        .botonEntrar{
-            color: white;
-            background-color: rgb(234, 84, 84);
-            display: inline-block;
-            height: 50px;
-            margin: 20px 10px;
-            padding: 0 20px;
-            border-radius: 25px;
-            font-size: 1.2rem;
-            font-weight: 700;
-            border: 2px solid white;
-            text-align: center;
-            transition: transform 0.3s, box-shadow 0.3s;
-            &:hover{
-            transform: scale(0.95);
-            box-shadow: 0 0 10px rgba(255, 255, 255, 0.627);
-            
-            }
-        }
-    }
-}
-.botonVolver{
-    
-    color: white;
-    background-color: rgb(234, 84, 84);
-    display: inline-block;
-    height: 50px;
-    margin: 20px 10px;
-    padding: 10px 20px;
-    border-radius: 25px;
-    font-size: 1.2rem;
-    font-weight: 700;
-    border: 2px solid white;
-    text-align: center;
-    transition: transform 0.3s, box-shadow 0.3s;
-    &:hover{
-    transform: scale(0.95);
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.627);
-    }
 }
