@@ -9,26 +9,66 @@
 </head>
 
 <body>
-    <h2>Bienvenido a Cac-Movies-2024...</h2><br>
-    <h2>Ingresá a tu cuenta y empezá a disfrutar de lo mejor...</h2><br>
-    <form action="procesar_formulario.py" method="post">
-        <br><!--salto de linea-->
-        <br>
-        <label for="email">Correo electrónico:</label>
-        <input type="email" id="email" required>
-        <br><br>
-              <br><br>
-        <label for="contraseña">Ingresa tu contraseña:</label>
-        <textarea name="contraseña" id="Contraseña" cols="16" rows="1"></textarea><br>
-      
+    <header class="header">
+                    <!-- Contenedor -->
+        <nav class="navegacion">
+                            <!-- Hijo1 -->
+            <a href="" class="anclaLogo">
+                <i class="fas fa-film" aria-hidden="true">  </i>
+                <span>CaC-MOVIES2024</span>
+                
+            </a>
         
-        <br><br>
-        <input type="submit" value="Entrar">
+            <!-- Hijo 2 -->
+            <ul class="listaNav">
+                <li class="listaItem"><a href="#" class="linkNav">Tendencias</a></li>
+                <li class="listaItem"><a href="registro.html"  class="linkNav">Registro</a</li>
+                <li class="listaItem"><a href="login.html" class="linkNav inicioSesion">Inicio de sesión</a></li>
+            </ul>                
+           
+        </nav>
+    </header >
+        
+    <section class="loginheader">
+         <h2 class="titulo">Bienvenido a CaC-Movies-2024...</h2><br>
+         <h2 class="titulo">Ingresá a tu cuenta <br>y empezá a disfrutar de lo mejor...</h2><br>
+         <form action="procesar_formulario.py" method="post">
+        <br>
+        <br>
+        <section class="seccionbody">
+       <!-- sección email -->
+            <section class="seccionemail">
+                <label for="email">Correo electrónico:</label>
+                <input class="inputemail" type="email" id="email" required>   
+            </section>
+        <br>
+        <br>
+            
+<!-- seccion password -->
+        <br>
+        <br>
+            <section class="seccionpassword"> 
+                <label for="contraseña">Ingresa tu contraseña:</label>
+                <input class="contrasena" type="Contraseña" id="contraseña" required>
+            </section>
+        <br>
+        <br>
+        <br>
+        <!-- botorn entrar -->
+                <input class="botonEntrar" type="submit" value="Entrar">
+       <br>
+       <br>
+ <!-- Boton volver -->
+            <!-- <section class="botonVolver"> -->
+                <!-- <a href="index.html"> <button class="botonRegistro" >Volver</button> </a>  -->
+            <!-- </section> -->
     </form>
-    <br><br>
-    <a href="index.html">
-        <button>Volver</button>
-    </a>
+    
+     
+</section>
+ <!-- Boton volver -->
+    <section class="botonVolver">
+         <a href="index.html"> <button class="botonRegistro" >Volver</button> </a> 
+    </section>
 </body>
-
 </html>
